@@ -1,0 +1,18 @@
+version: "3.9"
+
+networks:
+  nginx-app-angular:
+    driver: bridge
+volumes:
+  data:
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: hunglq10082003/nginx-app-angular:latest
+    networks:
+      - nginx-app-angular
+    ports:
+      - "80:80"

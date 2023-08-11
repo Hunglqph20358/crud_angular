@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "username": "hung",
+      "address": "bac ninh",
+      "phone": "0987654321",
+      "gender": true,
+      "email": "lehung10082003@gmail.com",
+      "id": 1
+    },
+    {
+      "username": "aaa",
+      "address": "bac ninh",
+      "phone": "11213",
+      "gender": false,
+      "email": "aaa@gmail.com",
+      "id": 2
+    }
+  ]
+}
